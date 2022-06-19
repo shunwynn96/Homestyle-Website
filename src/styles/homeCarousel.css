@@ -1,0 +1,28 @@
+/* #home-carousel .testimonials-text {
+  font-size: 3rem;
+  line-height: 1.5;
+} */
+
+/* .orange-section {
+  background-color: rgb(243, 147, 36);
+} */
+
+.carousel-container {
+  padding: 5% 0;
+  /* background-color: rgb(243, 147, 36); */
+}
+
+.carousel-img {
+  width: 100%;
+}
+
+.carousel-double-img {
+  width: 50%;
+  float: left;
+}
+
+.carousel-item {
+  /* padding: 1% 1%; */
+  /* margin-bottom: 2%; */
+}
+

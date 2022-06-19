@@ -1,0 +1,102 @@
+.item-card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item-card {
+  display: flex;
+  padding: 0;
+  width: 48%;
+  margin: 0 1% 1% 1%;
+  border-radius: 0.3rem;
+  background-color: #EBE7E7;
+}
+
+.item-card-img {
+  object-fit: cover;
+  border-radius: 0.3rem 0 0 0.3rem;
+  width: 40%;
+}
+
+.item-card-details {
+  position: relative;
+  padding: 1rem;
+  width: 60%;
+}
+
+.details-1 {
+  text-align: left;
+}
+
+.details-2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 1rem 1rem 0;
+}
+
+.details-1 h4 {
+  font-size: 1rem;
+}
+
+.details-2 p {
+  font-size: 0.9rem;
+  display: inline;
+  /* padding-right: 1rem; */
+}
+
+@media (max-width: 800px) {
+  .item-card {
+    flex-direction: column;
+    width: 48%;
+  }
+  .item-card-img {
+    border-radius: 0.3rem 0.3rem 0 0;
+    width: 100%;
+  }
+  .item-card-details {
+    width: 100%;
+    height: 10rem;
+  }
+  .details-2 p {
+    font-size: 0.8rem;
+  }
+  .details-2 button{
+    font-size: 0.7rem;
+  }
+  
+}
+
+/* ===== FoodData.js & DrinkData.js ===== */
+
+/* FoodData.js */
+.food-catagory-first-title {
+  background-color: rgb(243, 147, 36, 1);
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  width: 100%;
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.food-catagory-title {
+  background-color: rgb(243, 147, 36, 1);
+  color: white;
+  font-size: 30px;
+  margin-top: 10%;
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.achor-link-offset {
+  display: block;
+  position: relative;
+  top: 0.1rem;
+  visibility: hidden;
+}
+
+#drink.achor-link-offset {
+  top: 1.9rem;
+}

@@ -1,0 +1,8 @@
+.menu-container {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: no-wrap;
+  width: 100%;
+  flex-direction: row;
+  justify-content:center ;
+}

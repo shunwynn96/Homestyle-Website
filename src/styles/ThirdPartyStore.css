@@ -1,0 +1,80 @@
+.store-container {
+  padding: 5% 5%;
+}
+
+.store-box {
+  padding: 4.5%;
+}
+
+.store-btn {
+  margin: 4% auto;
+  font-size: 120%;
+  width: 90%;
+}
+
+/* GrabFood Style */
+.grabfood-logo {
+  width: 80%;
+  margin-bottom: 10%;
+} 
+
+/* FoodPanda Style */
+.foodpanda-logo {
+  width: 100%;
+  margin-bottom: 7%;
+}
+
+.foodpanda-btn {
+  color: #d50c64;
+  border-color: #d50c64;
+}
+
+.foodpanda-btn:hover {
+  background-color: #d50c64;
+}
+
+/* Shopee Style */
+.shopee-logo {
+  width: 80%;
+  margin: -5% 0 5%;
+}
+
+.shopee-btn {
+  color: #ec4a29;
+  border-color: #ec4a29;
+}
+
+.shopee-btn:hover {
+  color: white;
+  background-color: #ec4a29;
+}
+
+@media (max-width: 991px) {
+  .store-container{
+    padding: 15% 10%;
+    /* margin: 0; */
+  }
+
+  .grabfood-logo {
+    width: 40%;
+    margin-bottom: 4%;
+  } 
+
+  .foodpanda-logo {
+    width: 60%;
+    margin-bottom: 2%;
+  }
+
+  .shopee-logo {
+    width: 50%;
+    margin: -5% 0 2%;
+  }
+
+  .store-btn {
+    margin: 2% auto;
+    font-size: 90%;
+    width: 70%;
+  }
+
+
+}

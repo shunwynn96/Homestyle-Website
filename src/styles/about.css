@@ -1,0 +1,35 @@
+.about-container {
+  background-color: antiquewhite;
+  width: 100vw;
+}
+
+.about-content {
+  /* background-color: antiquewhite; */
+  padding: 5% 5%;
+  margin: 0 auto;
+  
+  /* max-width: 80vw; */
+}
+
+.about-content h1 {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.about-content p {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 10rem;
+  padding-top: 1rem;
+}
+
+@media (max-width: 772px) {
+  .about-content p {
+    font-size: 1rem;
+  }
+  .about-content h1 {
+    font-size: 1.5rem;
+  }
+}

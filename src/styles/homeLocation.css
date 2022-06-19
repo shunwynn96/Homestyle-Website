@@ -1,0 +1,58 @@
+.location-container hr {
+  margin-right: 6rem;
+}
+
+.location-map-container {
+  display: flex;
+  width: 80vw;
+  height: 30rem;
+  flex-direction: row;
+}
+
+.location-title {
+  text-align: left;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.location-inderawasih {
+  width: 40vw;
+  margin-top: 1rem;
+  margin-right: 1%;
+}
+.location-perda {
+  width: 40vw;
+  margin-top: 1rem;
+  margin-left: 1%;
+}
+
+.map-title {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.location-map {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 772px) {
+  .location-map-container {
+    flex-direction: column;
+  }
+  .location-container hr {
+    margin-right: 0;
+  }
+  .location-inderawasih {
+    width: 80vw;
+  }
+  .location-perda {
+    width: 80vw;
+  }
+  .location-title {
+    font-size: 1.6rem;
+  }
+  .location-map {
+    height: auto;
+  }
+}

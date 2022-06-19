@@ -1,0 +1,33 @@
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 10px 0 10px 3%;
+}
+
+.navbar-toggler {
+  margin-right: 5%;
+}
+
+.navbar-bg {
+  background-color: #452720;
+}
+
+.navbar-nav {
+  padding: 0 3% 0 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.nav-logo-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}

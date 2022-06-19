@@ -1,0 +1,63 @@
+.contactUs-container {
+  max-width: 80rem;
+  height: 80vh;
+  margin: 0 auto;
+  background-color: antiquewhite;
+}
+
+.contactUs-container h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.contactUs-number {
+  padding: 2rem 0 0 2rem;
+  text-align: left;
+}
+
+.contactUs-email {
+  padding: 2rem 0 0 2rem;
+  text-align: left;
+}
+
+.contactUs-socialMedia {
+  padding: 2rem 0 0 2rem;
+  text-align: left;
+}
+
+.contactUs-socialMedia a {
+  text-align: left;
+  padding-left: 0;
+  display: block;
+  margin-top: 1rem;
+}
+
+.facebook-icon {
+  width: 15rem;
+  color: white;
+  background-color: rgb(66, 103, 178);
+}
+
+.facebook-icon span {
+  padding-left: 20px;
+}
+
+.instagram-icon {
+  color: white;
+  width: 15rem;
+  border: none;
+  text-align: center;
+  background: 
+  radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), 
+  radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), 
+  radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), 
+  radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), 
+  radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), 
+  radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), 
+  radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), 
+  linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+.instagram-icon span {
+  padding-left: 20px;
+}
