@@ -13,25 +13,25 @@ function MobileLayoutMenu() {
         <NavBar />
       </section>
       <div className="dropdown mobile-menu__dropdown">
-        <a 
+        <span 
           className="btn btn-secondary dropdown-toggle mobile-menu__dropdown-btn" 
           role="button" 
           id="dropdownMenuLink" 
           data-bs-toggle="dropdown" 
-          aria-expanded="false">
+          aria-expanded="false"
+          >
           Homestyle Menu
-        </a>
+        </span>
         <ul className="dropdown-menu mobile-menu__dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <li><a href="#" className="dropdown-item" aria-current="page">Platters</a></li>
+          <li><a href="#platters" className="dropdown-item" aria-current="page">Platters</a></li>
           <li><a href="#sandwich" className="dropdown-item">Sandwiches</a></li>
-          <li><a href="#eggToast" className="dropdown-item">Egg & Toast</a></li>
+          {/* <li><a href="#eggToast" className="dropdown-item">Egg & Toast</a></li> */}
           <li><a href="#soup" className="dropdown-item">Soup</a></li>
-          {/* <li><a href="#burger" className="dropdown-item">Burgers</a></li> */}
           <li><a href="#noodle" className="dropdown-item">Noodles</a></li>
           <li><a href="#rice" className="dropdown-item">Rice</a></li>
           <li><a href="#pasta" className="dropdown-item">Pasta</a></li>
           <li><a href="#western" className="dropdown-item">Western Delights</a></li>
-          <li><a href="#fingerFood" className="dropdown-item">Finger Food</a></li>
+          {/* <li><a href="#fingerFood" className="dropdown-item">Finger Food</a></li> */}
           <li><a href="#drink" className="dropdown-item">Drinks</a></li>
         </ul>
       </div>

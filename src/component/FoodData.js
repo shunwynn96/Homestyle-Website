@@ -58,11 +58,11 @@ function FoodData() {
           })}
         </div>
 
-        <p id="eggToast" className="achor-link-offset"></p>
+        {/* <p id="eggToast" className="achor-link-offset"></p>
         <p className="food-catagory-title">Egg & Toast</p>
         <div className="item-card-container">
           
-        </div>
+        </div> */}
         
         <p id="soup" className="achor-link-offset"></p>
         <p className="food-catagory-title">Soup</p>
@@ -183,7 +183,7 @@ function FoodData() {
           })}
         </div>
         
-        <p id="fingerFood" className="achor-link-offset"></p>
+        {/* <p id="fingerFood" className="achor-link-offset"></p>
         <p className="food-catagory-title">Finger Food</p>
         <div className="item-card-container">
           {food.map((item) => {
@@ -201,7 +201,7 @@ function FoodData() {
               )
             }
           })}
-        </div>
+        </div> */}
 
     </div>
   )
