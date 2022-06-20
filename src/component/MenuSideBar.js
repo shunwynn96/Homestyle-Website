@@ -8,7 +8,7 @@ function MenuSideBar() {
       <p className="text-dark fs-4 sidebar-title">Menu</p>
       <hr/>
       <ul className="nav nav-pills flex-column mb-auto">
-        <li><a href="#" className="nav-link link-dark sidebar-link" aria-current="page">Platters</a></li>
+        <li><a href="#platters" className="nav-link link-dark sidebar-link" aria-current="page">Platters</a></li>
         <li><a href="#sandwich" className="nav-link link-dark sidebar-link">Sandwiches</a></li>
         {/* <li><a href="#eggToast" className="nav-link link-dark sidebar-link">Egg & Toast</a></li> */}
         <li><a href="#soup" className="nav-link link-dark sidebar-link">Soup</a></li>
